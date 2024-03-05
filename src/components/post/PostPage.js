@@ -23,7 +23,7 @@ function PostPage({postInfo}) {
 
   return (
     <div style={{minWidth: 0}}>
-      <div className="mdfile m-5 p-4" style={{backgroundColor: 'rgba(52, 52, 52, 0.8)'}}>
+      <div className="mdfile" style={{backgroundColor: 'rgba(52, 52, 52, 0.8)', margin:'3%', padding:"3%"}}>
         <ReactMarkdown 
           children={content} 
           components={{ 
