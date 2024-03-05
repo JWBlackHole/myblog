@@ -6,8 +6,10 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import IntroSide from './components/intro/IntroSide';
+import IntroTop from './components/intro/IntroTop';
 import Home from "./components/home/Home";
 import Category from "./components/category/Category";
+import AboutMe from "./components/aboutme/AboutMe";
 import PostPage from "./components/post/PostPage";
 
 import data from './md/all_md.json';
@@ -34,7 +36,7 @@ function App() {
   }, []);
 
   return (
-      <div className='d-flex' style = {{height: '100%'}}>
+      <div className='d-flex flex-column flex-md-row' style = {{height: '100%'}}>
         <div className='d-none d-md-block'>
           <IntroSide pictureHeight={pictureHeight}/>
         </div>
@@ -42,12 +44,16 @@ function App() {
           <div style={{position: 'fixed', zIndex: -1, overflow: "hidden"}}>
             <Image src={require('./imgs/background.jpg')} height={pictureHeight} width={pictureWidth}/>
           </div>
+          <div className='d-block d-md-none pb-4'>
+            <IntroTop pictureHeight={pictureHeight}/>
+          </div>
           <div>
             <Routes>
               <Route index element={<Home postInfos={postInfos}/>} />
               <Route path="/category" element={<Category />} />
               <Route path="/article" element={<PostPage postInfo={postInfos[search.get('postid')]}/>} />
-              {/* <Route path="*" element={<Home postInfos={postInfos}/>} /> */}
+              <Route path="/aboutme" element={<AboutMe/>}/>
+              <Route path="*" element={<Home postInfos={postInfos}/>} />
             </Routes>
           </div>
         </div>
