@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import MathJax from 'better-react-mathjax';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './PostPage.css'
+import './PostPage.css';
 import ReactMarkdown from 'react-markdown';
 
 import CodeBlock from './CodeBlock';
