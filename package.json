@@ -1,6 +1,6 @@
 {
   "name": "webblackhole",
-  "homepage": "https://jwblackhole.github.io",
+  "homepage": "https://blog.blackholeljw.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,6 +22,7 @@
   },
   "scripts": {
     "start": "HTTPS=true SSL_CRT_FILE=cert.crt SSL_KEY_FILE=cert.key react-scripts start",
+    "local": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

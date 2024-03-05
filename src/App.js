@@ -36,7 +36,7 @@ function App() {
 
   return (
       <div className='d-flex' style = {{height: '100%'}}>
-        <div>
+        <div className='d-none d-md-block'>
           <IntroSide pictureHeight={pictureHeight}/>
         </div>
         <div className='w-100' style={{minWidth: 0}}>
