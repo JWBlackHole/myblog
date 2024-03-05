@@ -8,7 +8,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import IntroSide from './components/intro/IntroSide';
 import Home from "./components/home/Home";
 import Category from "./components/category/Category";
-import Articles from "./components/articles/Articles";
 import PostPage from "./components/post/PostPage";
 
 import data from './md/all_md.json';
@@ -45,11 +44,10 @@ function App() {
           </div>
           <div>
             <Routes>
-              <Route index element={<Home/>} />
+              <Route index element={<Home postInfos={postInfos}/>} />
               <Route path="category" element={<Category />} />
-              <Route path="articlelist" element={<Articles postInfos={postInfos}/>} />
               <Route path="article" element={<PostPage postInfo={postInfos[search.get('postid')]}/>} />
-              <Route path="*" element={<Home/>} />
+              <Route path="*" element={<Home postInfos={postInfos}/>} />
             </Routes>
           </div>
         </div>
