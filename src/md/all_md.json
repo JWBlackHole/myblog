@@ -3,7 +3,7 @@
         {
             "title": "Structure(English)",
             "description": "This is a tutorial teaching beginner who just programed C for a while to learn Structure.",
-            "file": "function_recursion.md",
+            "file": "struct.md",
             "tags": ["C language", "Tutorial"],
             "time": "2024-02-08"
         },
