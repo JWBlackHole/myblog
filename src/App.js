@@ -45,9 +45,9 @@ function App() {
           <div>
             <Routes>
               <Route index element={<Home postInfos={postInfos}/>} />
-              <Route path="category" element={<Category />} />
-              <Route path="article" element={<PostPage postInfo={postInfos[search.get('postid')]}/>} />
-              <Route path="*" element={<Home postInfos={postInfos}/>} />
+              <Route path="/category" element={<Category />} />
+              <Route path="/article" element={<PostPage postInfo={postInfos[search.get('postid')]}/>} />
+              {/* <Route path="*" element={<Home postInfos={postInfos}/>} /> */}
             </Routes>
           </div>
         </div>

@@ -23,9 +23,9 @@ function IntroSide({pictureHeight}) {
           </div>
 
           <div className='d-flex flex-column align-items-center py-4'>
-            <a href="/"><div className="p-1" style={{color:"#aaaaaa", fontWeight:"bold"}}>Home</div></a>
-            <a href="/category"><div className="p-1" style={{color:"#aaaaaa", fontWeight:"bold"}}>Category</div></a>
-            <a href="/aboutme"><div className="p-1" style={{color:"#aaaaaa", fontWeight:"bold"}}>About Me</div></a>
+            <a href="#/"><div className="p-1" style={{color:"#aaaaaa", fontWeight:"bold"}}>Home</div></a>
+            <a href="#/category"><div className="p-1" style={{color:"#aaaaaa", fontWeight:"bold"}}>Category</div></a>
+            <a href="#/aboutme"><div className="p-1" style={{color:"#aaaaaa", fontWeight:"bold"}}>About Me</div></a>
           </div>
 
           <div className="d-flex flex-row align-items-center">
