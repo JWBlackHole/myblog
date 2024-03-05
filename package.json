@@ -2,7 +2,7 @@
   "name": "webblackhole",
   "homepage": "https://blog.blackholeljw.com",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@iconify/react": "^4.1.1",
     "@testing-library/jest-dom": "^5.17.0",
