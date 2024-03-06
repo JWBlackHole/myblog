@@ -28,7 +28,6 @@ function App() {
   }
 
   useEffect(() => {
-    
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
@@ -36,11 +35,11 @@ function App() {
   }, []);
 
   return (
-      <div className='d-flex flex-column flex-md-row' style = {{height: '100%'}}>
+      <div className='d-flex flex-column flex-md-row' style = {{height: '100%', position: 'relative'}}>
         <div className='d-none d-md-block'>
           <IntroSide pictureHeight={pictureHeight}/>
         </div>
-        <div className='w-100' style={{minWidth: 0}}>
+        <div className='w-100  ml-md-300' style={{minWidth: 0}}>
           <div style={{position: 'fixed', zIndex: -1, overflow: "hidden"}}>
             <Image src={require('./imgs/background.jpg')} height={pictureHeight} width={pictureWidth}/>
           </div>
