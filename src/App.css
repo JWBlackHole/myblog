@@ -37,6 +37,6 @@
   }
 }
 
-@media (min-width: 768px) {
-  .ml-md-300 { margin-left: 300px; }
+@media (min-width: 992px) {
+  .ml-lg-300 { margin-left: 300px; }
 }

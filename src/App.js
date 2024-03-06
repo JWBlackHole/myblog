@@ -36,14 +36,14 @@ function App() {
 
   return (
       <div className='d-flex flex-column flex-md-row' style = {{height: '100%', position: 'relative'}}>
-        <div className='d-none d-md-block'>
+        <div className='d-none d-lg-block'>
           <IntroSide pictureHeight={pictureHeight}/>
         </div>
-        <div className='w-100  ml-md-300' style={{minWidth: 0}}>
+        <div className='w-100  ml-lg-300' style={{minWidth: 0}}>
           <div style={{position: 'fixed', zIndex: -1, overflow: "hidden"}}>
             <Image src={require('./imgs/background.jpg')} height={pictureHeight} width={pictureWidth}/>
           </div>
-          <div className='d-block d-md-none pb-4'>
+          <div className='d-block d-lg-none pb-4'>
             <IntroTop pictureHeight={pictureHeight}/>
           </div>
           <div>
