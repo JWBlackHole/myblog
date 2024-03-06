@@ -23,7 +23,13 @@ function PostPage({postInfo}) {
 
   return (
     <div style={{minWidth: 0}}>
-      <div className="mdfile m-3 p-3 m-md-4 p-md-4 m-lg-5 rounded" style={{border: "2px solid #444444", background: 'transparent', backdropFilter: 'blur(3px)'}}>
+      <div className="mdfile m-3 p-3 m-md-4 p-md-4 m-lg-5 rounded"
+      style={{
+        border: "2px solid #444444",
+        background: 'transparent',
+        backdropFilter: 'blur(3px)',
+        WebkitBackdropFilter: 'blur(3px)'
+      }}>
       {/* <div className="mdfile m-3 p-3 m-md-4 p-md-4 m-lg-5" style={{backgroundColor: 'rgba(52, 52, 52, 0.8)'}}> */}
       
         <ReactMarkdown 

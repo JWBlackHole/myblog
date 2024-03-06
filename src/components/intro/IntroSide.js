@@ -11,7 +11,7 @@ import MyPictureAndName from './MyPictureAndName';
 
 function IntroSide({pictureHeight}) {
   return (
-    <div style={{border: '1px solid rgba(0, 0, 0, 0.05)', width: "300px", height:`${pictureHeight}px`, position: 'fixed', overflow: 'auto'}} >
+    <div style={{width: "300px", height:`${pictureHeight}px`, position: 'fixed', overflow: 'auto'}} >
       <div style={{width: "inherit", position: 'fixed', top: 0, left: 0, zIndex: -1, overflow: "hidden"}}>
         <Image src={require('../../imgs/introSideBackground.jpg')} height={pictureHeight}/>
       </div>
