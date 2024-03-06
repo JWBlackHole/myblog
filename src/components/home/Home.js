@@ -34,7 +34,12 @@ function Home({postInfos}) {
       <>
       {
         postInfos
-        .map((postInfo, index) => <PostItem index={index} {...postInfo}/>)
+        .map((postInfo, index) => 
+          <div className="w-100" >
+            <div className='my-4 mx-3 mx-md-4'>
+              <PostItem index={index} {...postInfo}/>
+            </div>
+          </div>)
         .filter((postInfo, index) => (index < pageCapacity * active && index >= pageCapacity * (active - 1))
         )
       }
