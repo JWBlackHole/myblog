@@ -13,7 +13,7 @@ function MyPictureAndName() {
         </div>
         <div className='mt-3'>
           <div className='d-flex justify-content-center'>
-              <p className='h5' style={{color:'#cccccc', fontFamily: 'Roboto, serif', fontWeight: "bold" }}>JWBlackHole</p>
+              <p className='h5' style={{color:'#cccccc', fontFamily: 'Roboto, serif', fontWeight: "bold", fontSize: '1.4rem' }}>JW BlackHole</p>
           </div>
         </div>
         
