@@ -2,7 +2,7 @@
 
 **Hello, it is JW Blackhole.**
 
-Now, I am a junior student majoring EECS at NTHU, loving C/C++ very much, as it's my first programming language since high school &#x1f496;.   
+Now, I am a junior student majoring EECS at NTHU, loving C/C++ very much, which is my first programming language since high school &#x1f496;.   
 
 I am also passsionate about facing challenges, solving problems and I always have a curious mind &#x1f4a1;.
 
@@ -18,5 +18,5 @@ I am also passsionate about facing challenges, solving problems and I always hav
         Solved: &nbsp; 4/7  
         Level: &emsp; Professional
 - **112年青年創新創業培育計畫-青春靚點子學生創業挑戰賽**:
-    - 運動揪揪: 優等
+    - 運動揪揪 Team : 優等
 
