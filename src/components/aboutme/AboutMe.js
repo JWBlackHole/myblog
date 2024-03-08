@@ -26,7 +26,7 @@ function AboutMe() {
         backdropFilter: 'blur(3px)',
         WebkitBackdropFilter: 'blur(3px)'
       }}>
-        <div style={{maxWidth: '500px'}}>
+        <div style={{maxWidth: '600px'}}>
           <ReactMarkdown 
           children={content}/>
         </div>

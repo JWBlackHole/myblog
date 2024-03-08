@@ -1,10 +1,12 @@
 ## About JW Blackhole
 
-**Hello, it is JW Blackhole.**
+Hello, it is **JW Blackhole**.
 
 Now, I am a junior student majoring EECS at NTHU, loving C/C++ very much, which is my first programming language since high school &#x1f496;.   
 
-I am also passsionate about facing challenges, solving problems and I always have a curious mind &#x1f4a1;.
+I am also passsionate about facing challenges, solving problems and I always hold a curious mind &#x1f4a1;.  
+
+**Wish we all get better and better &#x1F3C6;!!!**
 
 #### Competition and Exam
 

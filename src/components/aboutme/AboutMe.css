@@ -11,3 +11,7 @@
 .text {
     font-size:clamp(1rem, 1.2vw, 1.4rem)
 }
+
+@media (min-width: 992px) {
+    .maxWidth { max-width: 500px; }
+}
