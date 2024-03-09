@@ -6,8 +6,8 @@ import './Category.css';
 function Category() {
 
   return (
-    <div className='my-4 mx-3 mx-md-4'>
-      <div className="d-flex flex-column" style={{position: 'relative', backgroundColor: 'rgba(52, 52, 52, 0.8)'}}>
+    <div className='h-100 d-flex flex-column justify-content-center'>
+      <div className="d-flex flex-column my-4 mx-3 mx-md-4" style={{position: 'relative', backgroundColor: 'rgba(52, 52, 52, 0.8)', minHeight: '50%'}}>
         <div className="d-flex flex-column flex-lg-row align-items-lg-center" style={{borderLeft: '5px #999999 solid', padding: '2rem 2rem 1rem 5%'}}>
           {/* <div className="flex-grow-1"><a href={`#/article?postid=${index}`}><h2 style={{color: "#cfcfcf", margin: 0}}>ahha</h2></a></div> */}
           <div className="flex-grow-1"><h2 style={{color: "#cfcfcf", margin: 0}}>Category</h2></div>
@@ -21,6 +21,7 @@ function Category() {
         </div>
       </div>
     </div>
+    
   );
 }
 
