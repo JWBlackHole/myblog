@@ -15,7 +15,7 @@ import PostPage from "./components/post/PostPage";
 import data from './md/all_md.json';
 
 function App() {
-  const postInfos = data.mardowns;
+  const allPostInfos = data.mardowns;
 
   const [pictureHeight, setPictureHeight] = useState(window.innerHeight);
   const [pictureWidth, setPictureWidth] = useState(window.innerWidth);
@@ -48,11 +48,11 @@ function App() {
           </div>
           <div>
             <Routes>
-              <Route index element={<Home postInfos={postInfos}/>} />
+              <Route index element={<Home allPostInfos={allPostInfos} tag={search.get('tag')}/>} />
               <Route path="/category" element={<Category />} />
-              <Route path="/article" element={<PostPage postInfo={postInfos[search.get('postid')]}/>} />
+              <Route path="/article" element={<PostPage allPostInfo={allPostInfos[search.get('postid')]}/>} />
               <Route path="/aboutme" element={<AboutMe/>}/>
-              <Route path="*" element={<Home postInfos={postInfos}/>} />
+              <Route path="*" element={<Home allPostInfos={allPostInfos} tag={search.get('tag')}/>} />
             </Routes>
           </div>
         </div>

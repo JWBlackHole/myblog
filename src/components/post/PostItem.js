@@ -24,7 +24,7 @@ function PostItem({index=0, time="unknown", title = 'Unknown', description = 'Un
           <>
           {
             tags.map((tag, index) => {
-              return <span>{tag}{index !== (tagNum - 1) ? ", ": ""}</span>
+              return <span key={index} >{tag}{index !== (tagNum - 1) ? ", ": ""}</span>
             })
           }
           </>

@@ -55,8 +55,7 @@ int main() {
 }
 ```
 
-:::success
-hint:
+hint:  
 For the simplicity of declaration, we will define the struct like:
 ```c=
 typedef struct _person_ {
@@ -81,7 +80,6 @@ struct person *ptr = &person1;
 // or
 ptr->age = 10;
 ```
-:::
 
 ### Practice
 
@@ -211,7 +209,7 @@ struct node{
 ```
 
 ### Practice
-[Reverse linked list](https://leetcode.cn/problems/reverse-linked-list/description/)
-[Merge Two linked list](https://leetcode.cn/problems/merge-two-sorted-lists/description/)
+[Reverse linked list](https://leetcode.cn/problems/reverse-linked-list/description/)   
+[Merge Two linked list](https://leetcode.cn/problems/merge-two-sorted-lists/description/)   
 [Middle of the linked list](https://leetcode.cn/problems/middle-of-the-linked-list/description/)
 

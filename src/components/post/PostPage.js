@@ -7,12 +7,12 @@ import ReactMarkdown from 'react-markdown';
 
 import CodeBlock from './CodeBlock';
 
-function PostPage({postInfo}) {
-  console.log(postInfo);
+function PostPage({allPostInfo}) {
+  // console.log(allPostInfo);
 
   const [content, setContent] = useState('');
 
-  const mdfile = require(`../../md/${postInfo.file}`)
+  const mdfile = require(`../../md/${allPostInfo.file}`)
   fetch(mdfile)
   .then(response => {
     return response.text();

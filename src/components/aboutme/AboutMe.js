@@ -4,8 +4,6 @@ import './AboutMe.css';
 
 import ReactMarkdown from 'react-markdown';
 
-console.log(window.location.pathname);
-
 function AboutMe() {
   const mdfile = require('./AboutMe.md');
 

@@ -29,7 +29,7 @@ function IntroTop({pictureHeight}) {
         </div>
       </div>
 
-      <div className='d-flex flex-row justify-content-center my-4' style={{width: "100%", fontSize:'clamp(0.6rem, 2vw, 0.8rem)'}}>
+      <div className='d-flex flex-row justify-content-center my-4' style={{width: "100%", fontSize:'clamp(0.8rem, 2vw, 0.1rem)'}}>
         <div className="d-flex flex-row justify-content-center" style={{border: '1px solid white', width: "25%", backgroundColor:"rgba(111, 111, 111, 0.5)"}}>
           <a href="#/"><div className="p-1" style={{color:"#cccccc", fontWeight:"bold"}}>Home</div></a>
         </div>

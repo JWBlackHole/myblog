@@ -1,45 +1,59 @@
 {
     "mardowns":[
         {
+            "title": "BB and Cortical Connectivity",
+            "description": "This is a report after reading a paper about how BB(Binaural Beats) affect the connectivity of cortex and visual working memory ",
+            "file": "bb_cortical.md",
+            "tags": ["Neuroscience"],
+            "time": "2024-02-25"
+        },
+        {
+            "title": "BB and Working memory",
+            "description": "This is a report after reading a paper about how BB(Binaural Beats) affect working memory.",
+            "file": "bb_memory.md",
+            "tags": ["Neuroscience"],
+            "time": "2024-02-16"
+        },
+        {
             "title": "Structure(English)",
             "description": "This is a tutorial teaching beginner who just programed C for a while to learn Structure.",
             "file": "struct.md",
-            "tags": ["C language", "Tutorial"],
+            "tags": ["C/C++", "Tutorial"],
             "time": "2024-02-08"
         },
         {
             "title": "Function and Recursion(English)",
             "description": "This is a tutorial teaching beginner who just programed C for a while to learn function and recursion.",
             "file": "function_recursion.md",
-            "tags": ["C language", "Tutorial"],
+            "tags": ["C/C++", "Tutorial"],
             "time": "2024-02-02"
         },
         {
             "title": "Array(English)",
             "description": "This is a tutorial teaching beginner who just programed C for a while to learn Array.",
             "file": "array.md",
-            "tags": ["C language", "Tutorial"],
+            "tags": ["C/C++", "Tutorial"],
             "time": "2024-01-31"
         },
         {
             "title": "Loop(English)",
             "description": "This is a tutorial teaching beginner who just programed C for a while to learn Loop.",
             "file": "loop.md",
-            "tags": ["C language", "Tutorial"],
+            "tags": ["C/C++", "Tutorial"],
             "time": "2024-01-28"
         },
         {
             "title": "if-else & Switch(English)",
             "description": "This is a tutorial teaching beginner who just programed C for a while to learn if-else and Switch.",
             "file": "if_else_switch.md",
-            "tags": ["C language", "Tutorial"],
+            "tags": ["C/C++", "Tutorial"],
             "time": "2024-01-22"
         },
         {
             "title": "Pointer(Chinese)",
             "description": "This is a tutorial teaching beginner who just programed C for a while to learn Pointer.",
-            "file": "function_recursion.md",
-            "tags": ["C language", "Tutorial"],
+            "file": "pointer.md",
+            "tags": ["C/C++", "Tutorial"],
             "time": "2024-01-19"
         }
     ]
