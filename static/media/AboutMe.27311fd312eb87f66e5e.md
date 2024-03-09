@@ -10,7 +10,12 @@ I am also passsionate about facing challenges, solving problems and I always hol
 
 #### Competition and Exam
 
+- **112年青年創新創業培育計畫-青春靚點子學生創業挑戰賽**:
+
+    - Team 運動揪揪: 優等  
+    &nbsp;
 - **CPE (Collegiate Programming Exam)**:  
+
     - *2023-03-21*：  
         Rank: &emsp; 3.8%(107/2811)  
         Solved: &nbsp; 5/7   
@@ -19,6 +24,3 @@ I am also passsionate about facing challenges, solving problems and I always hol
         Rank: &emsp; 2.5%(67/2638)  
         Solved: &nbsp; 4/7  
         Level: &emsp; Professional
-- **112年青年創新創業培育計畫-青春靚點子學生創業挑戰賽**:
-    - 運動揪揪 Team : 優等
-
