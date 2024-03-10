@@ -15,3 +15,10 @@
 @media (min-width: 992px) {
     .maxWidth { max-width: 500px; }
 }
+
+.aboutme u {
+    text-decoration: solid underline rgb(0, 70, 246) 2px;
+    -webkit-text-decoration-line: underline;
+    -webkit-text-decoration-color: rgb(0, 70, 246);
+    -webkit-text-decoration-thickness: 2px;
+}

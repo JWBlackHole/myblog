@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import DOMpurify from 'dompurify';
+import rehypeRaw from "rehype-raw";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './AboutMe.css';
 
@@ -17,7 +19,7 @@ function AboutMe() {
 
   return (
     <div style={{minWidth: 0}}>
-      <div className="mdfile m-3 p-3 m-md-4 p-md-4 m-lg-5 rounded d-flex flex-column align-items-center"
+      <div className="aboutme m-3 p-3 m-md-4 p-md-4 m-lg-5 rounded d-flex flex-column align-items-center"
       style={{
         border: "2px solid #444444",
         background: 'transparent',
@@ -25,8 +27,9 @@ function AboutMe() {
         WebkitBackdropFilter: 'blur(3px)'
       }}>
         <div style={{maxWidth: '600px'}}>
-          <ReactMarkdown 
-          children={content}/>
+          <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+            {DOMpurify.sanitize(content)}
+          </ReactMarkdown>
         </div>
       </div>
     </div>
