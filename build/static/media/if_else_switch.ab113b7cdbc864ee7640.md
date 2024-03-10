@@ -114,7 +114,7 @@ int main(){
 De Morgan's laws
 ---
 
-![截圖 2024-01-22 晚上9.30.37](https://hackmd.io/_uploads/BJtzCJnYp.png)
+![截圖 2024-01-22 晚上9.30.37](https://hackmd.io/_uploads/BJtzCJnYp.png)  
 
 
 2. Input 3 intergers n, a and b, and if input n is in the range [a, b], then ouput "Yes, number {n} is in the range.", otherwise ouput "No, number {n} is not in the range."(You should replace {n} to the value of n)

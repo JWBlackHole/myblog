@@ -4,8 +4,8 @@
 ### 硬體常識
 
 CPU 修改、讀取、儲存資料需要透過**記憶體**
-通常記憶體位置有8bytes(64bits)
-![image](https://hackmd.io/_uploads/Skp0U5Ywa.png)
+通常記憶體位置有8bytes(64bits)  
+![image](https://hackmd.io/_uploads/Skp0U5Ywa.png)  
 
 
 ### 變數
@@ -36,7 +36,7 @@ int main(){
     return 0;
 }
 ```
-![截圖 2023-12-28 下午3.07.31](https://hackmd.io/_uploads/Sy4AR9cw6.png)
+![截圖 2023-12-28 下午3.07.31](https://hackmd.io/_uploads/Sy4AR9cw6.png)  
 
 :::warning
 問題：如何知道變數的位置？
@@ -62,7 +62,7 @@ int main(){
     return 0;
 }
 ```
-![截圖 2023-12-27 晚上11.43.48](https://hackmd.io/_uploads/SkRUITFP6.png)
+![截圖 2023-12-27 晚上11.43.48](https://hackmd.io/_uploads/SkRUITFP6.png)  
 
 
 :::warning
@@ -104,7 +104,7 @@ int main(){
     return 0;    
 }
 ```
-![截圖 2023-12-28 下午2.08.14](https://hackmd.io/_uploads/SyzkW9qwa.png)
+![截圖 2023-12-28 下午2.08.14](https://hackmd.io/_uploads/SyzkW9qwa.png)  
 
 
 
@@ -174,7 +174,7 @@ char *ptr_char = &b;     // ???
 
 char **ptr2 = &ptr_char; // ???
  ```
-![截圖 2023-12-27 晚上11.04.12](https://hackmd.io/_uploads/SJ6ga3tDT.png)
+![截圖 2023-12-27 晚上11.04.12](https://hackmd.io/_uploads/SJ6ga3tDT.png)  
 
 :::success
 Tips:
@@ -254,7 +254,7 @@ int main(){
     return 0;
 }
 ```
-![截圖 2023-12-28 下午4.00.57](https://hackmd.io/_uploads/Hkirosqwp.png)
+![截圖 2023-12-28 下午4.00.57](https://hackmd.io/_uploads/Hkirosqwp.png)  
 
 
 #### 二維陣列

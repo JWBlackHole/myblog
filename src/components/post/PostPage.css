@@ -1,5 +1,6 @@
 .mdfile img{
-    width: 100%
+    /* width: 100% */
+    width: clamp(0px, 100%, 100vh);
 }
 
 

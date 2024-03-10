@@ -615,8 +615,8 @@ void merge(int *des, int *arr1, int size1, int *arr2, int size2){ // merge arr1 
 ```
 
 #### Merge Sort
-By applying the tech of divide and conquer, we can accomplish sorting in **O(nlogn)**
-![image](https://hackmd.io/_uploads/r1au1XkqT.png)
+By applying the tech of divide and conquer, we can accomplish sorting in **O(nlogn)**  
+![image](https://hackmd.io/_uploads/r1au1XkqT.png)  
 
 
 ```c=

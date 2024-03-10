@@ -10,13 +10,6 @@ import PostItem from '../post/PostItem';
 function Article({allPostInfos, tag}) {
   const pageCapacity = 5;
   function initialPosts(){
-    console.log('initial posts', tag)
-    console.log(allPostInfos
-      .filter((postInfo, index) => {
-        if(tag === null)
-          return true;
-        return postInfo.tags.includes(tag)
-      }))
     return allPostInfos
       .filter((postInfo, index) => {
         if(tag === null)
@@ -56,7 +49,7 @@ function Article({allPostInfos, tag}) {
       .map((e, index) => (
         <div className="w-100" key={index}>
           <div className='my-4 mx-3 mx-md-4'>
-            <PostItem index={index} {...e}/>
+            <PostItem {...e}/>
           </div>
         </div>
       ))

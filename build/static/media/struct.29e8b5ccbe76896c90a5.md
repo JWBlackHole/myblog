@@ -100,9 +100,9 @@ Linked List
 
 A **linked list** is a linear data structure where elements, known as **nodes**, are linked using pointers. Each node contains two parts: data and a pointer (or reference) to the next node in the sequence
 
-### Array v.s Linked List
-![image](https://hackmd.io/_uploads/SJwK6Zbia.png)
-![image](https://hackmd.io/_uploads/SJfwTWWsp.png)
+### Array v.s Linked List  
+![image](https://hackmd.io/_uploads/SJwK6Zbia.png)  
+![image](https://hackmd.io/_uploads/SJfwTWWsp.png)  
 
 #### Eg.
 
