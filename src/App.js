@@ -35,7 +35,7 @@ function App() {
   }, []);
 
   return (
-      <div className='d-flex flex-column flex-md-row' style = {{height: '100vh', position: 'relative'}}>
+      <div className='d-flex flex-column flex-md-row' style = {{position: 'relative'}}>
         <div className='d-none d-lg-block'>
           <IntroSide pictureHeight={pictureHeight}/>
         </div>
