@@ -16,8 +16,8 @@
 
 - Gamma waves: 僅涉及腦類區域性傳輸
 - Theta waves: 涉及腦內長距離傳輸（即大腦不同區域）上有效
-  在工作記憶任務期間，前額葉和頂葉區域之間的theta wave持續在編碼、保持和檢索，並且這種同步隨著記憶負荷增加而增強。刺激誘導的β和γ同步會使前額葉和頂葉區域之間的一致性增加。
-![image](https://hackmd.io/_uploads/HkKJNT2s6.png)
+  在工作記憶任務期間，前額葉和頂葉區域之間的theta wave持續在編碼、保持和檢索，並且這種同步隨著記憶負荷增加而增強。刺激誘導的β和γ同步會使前額葉和頂葉區域之間的一致性增加。  
+![image](https://hackmd.io/_uploads/HkKJNT2s6.png)  
 
 ## 實驗
 
@@ -36,9 +36,9 @@
 實驗條件:
 1. 5Hz 雙耳節拍 (R: 240Hz, L: 245Hz)
 2. 10Hz 雙耳節拍 (R: 240Hz, L: 250Hz)
-3. 15Hz 雙耳節拍 (R: 240Hz, L: 255Hz)
+3. 15Hz 雙耳節拍 (R: 240Hz, L: 255Hz)  
 
-![image](https://hackmd.io/_uploads/HJ5ECTOna.png)
+![image](https://hackmd.io/_uploads/HJ5ECTOna.png)  
 
 ### EEG 紀錄的頻道
 
@@ -49,37 +49,35 @@ Fp1, Fp2, F7, F8, F3, F4, T3, T4, C3, C4, P3, P4, O1, O2, Fz, Cz
 本實驗選擇的工作記憶任務是延遲匹配示範視覺空間任務。下圖顯示了匹配和不匹配的試驗。在編碼初始圖像後，受試者被指示在工作記憶維持期間保留圖像，在沒有持續輸入的情況下。在檢索過程中，受試者被要求比較保留的和目前的圖像，並指出它們是否相符。容量，即可以主動維持的“負荷”上限，計算如下：
 
 K=C(H−F),
-其中C是負荷、H是命中率、F是誤報率。
+其中C是負荷、H是命中率、F是誤報率。 
 
-![image](https://hackmd.io/_uploads/BkxZgCOnT.png)
+![image](https://hackmd.io/_uploads/BkxZgCOnT.png)  
 
 ## 結果
 
-![image](https://hackmd.io/_uploads/SyS1MyKna.png)
-(1) Δ準確度: accuracy of end (3.5—5 mins) as compared to the beginning (0—1.5 mins) 
+![image](https://hackmd.io/_uploads/SyS1MyKna.png)  
+(1) Δ準確度: accuracy of end (3.5—5 mins) as compared to the beginning (0—1.5 mins)  
 
-![image](https://hackmd.io/_uploads/rkvHL5F36.png)
-(2) 三種情況的anova: 
+![image](https://hackmd.io/_uploads/rkvHL5F36.png)  
+(2) 三種情況的anova:  
 
 - F value:
 F越大，各組間的差異遠超出總期望值離差，代表各組的平均數存在明顯的差異(查表)
 
 - P value
-P越小，代表組間相關性低，組間差異大(通常以0.05當臨界點)
+P越小，代表組間相關性低，組間差異大(通常以0.05當臨界點)  
 
-![image](https://hackmd.io/_uploads/HJDv0cYn6.png)
+![image](https://hackmd.io/_uploads/HJDv0cYn6.png)    
+(3) 在六種條件下(3控制、3實驗)每個channel之間的連接性  
 
-(3) 在六種條件下(3控制、3實驗)每個channel之間的連接性
+![image](https://hackmd.io/_uploads/SJNHQot36.png)  
+(4) 在六種條件下、mantainence 和 retreival的連接性（關聯性）  
 
-![image](https://hackmd.io/_uploads/SJNHQot36.png)
-(4) 在六種條件下、mantainence 和 retreival的連接性（關聯性）
+![image](https://hackmd.io/_uploads/By8s9oFnp.png)  
+(5) 在六種條件下(3控制、3實驗)的degree, clustering coefficient, betweeness centrality  
 
-![image](https://hackmd.io/_uploads/By8s9oFnp.png)
-(5) 在六種條件下(3控制、3實驗)的degree, clustering coefficient, betweeness centrality
-
-![image](https://hackmd.io/_uploads/Hyavy2Fna.png)
-
-(6)各指標對於結果的影響
+![image](https://hackmd.io/_uploads/Hyavy2Fna.png)  
+(6)各指標對於結果的影響  
 
 ## 討論
 1. 15Hz雙聲道節拍提高了視空間工作記憶任務的準確性
