@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import IntroSide from './components/intro/IntroSide';
 import IntroTop from './components/intro/IntroTop';
 import Home from "./components/home/Home";
+import Article from './components/Article/Article';
 import Category from "./components/category/Category";
 import AboutMe from "./components/aboutme/AboutMe";
 import PostPage from "./components/post/PostPage";
@@ -48,11 +49,12 @@ function App() {
           </div>
           <div className='h-100'>
             <Routes>
-              <Route index element={<Home allPostInfos={allPostInfos} tag={search.get('tag')}/>} />
+              <Route index element={<Home allPostInfos={allPostInfos}/>} />
               <Route path="/category" element={<Category />} />
               <Route path="/article" element={<PostPage allPostInfo={allPostInfos[search.get('postid')]}/>} />
+              <Route path="/articles" element={<Article allPostInfos={allPostInfos} tag={search.get('tag')}/>} />
               <Route path="/aboutme" element={<AboutMe/>}/>
-              <Route path="*" element={<Home allPostInfos={allPostInfos} tag={search.get('tag')}/>} />
+              <Route path="*" element={<Home allPostInfos={allPostInfos}/>} />
             </Routes>
           </div>
         </div>

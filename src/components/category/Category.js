@@ -14,9 +14,9 @@ function Category() {
         </div>
         <div className='d-flex flex-column mb-3' style={{width: '80%', padding: '0 5% 1rem 5%', fontSize: '18px', fontWeight: "bold"}}>
           <ul>
-            <li><a href="#/home?tag=C%2FC%2B%2B"><div className="p-1 linking">C/C++</div></a></li>
-            <li><a href="#/home?tag=Tutorial"><div className="p-1 linking">Tutorial</div></a></li>
-            <li><a href="#/home?tag=Neuroscience"><div className="p-1 linking">Neuroscience</div></a></li>
+            <li><a href="#/articles?tag=C%2FC%2B%2B"><div className="p-1 linking">C/C++</div></a></li>
+            <li><a href="#/articles?tag=Tutorial"><div className="p-1 linking">Tutorial</div></a></li>
+            <li><a href="#/articles?tag=Neuroscience"><div className="p-1 linking">Neuroscience</div></a></li>
           </ul>
         </div>
       </div>
