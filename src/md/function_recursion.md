@@ -212,18 +212,16 @@ int main(){
 }
 ```
 
-:::success
-Hint:
+Hint:  
 In this case, compared to not recursive one, recursive way having less lines of code.
 However, it has low efficiency because of redundent computing.(can be resolved by using **dynamic programming**, which is a algorithm)
 And if we handle it properly, we can even do something complicated that normal way can not.
 
-But there may exist some problem using recursion:
+But there may exist some problem when using recursion:
 1. Low readibility, causing difficulty on debugging
 2. Redundent computing (if we do not handle it properly)
-:::
 
-Homework:
+Homework:  
 [GCD 最大公因數](https://zerojudge.tw/ShowProblem?problemid=a024)(Please write it in recursive way)  
 [河內塔](https://zerojudge.tw/ShowProblem?problemid=b190) (You may exceed the time limit of the test cases until you learn **dynamic programming**)  
 ![3de9312c-2f04-44c9-a3a9-aa0f914f7136](https://hackmd.io/_uploads/Sye6RcHKt6.jpg)  
